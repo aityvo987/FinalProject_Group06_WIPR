@@ -3,15 +3,11 @@
   "WorkspaceRootPath": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\topictaskstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:topictaskstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,42 +33,42 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAzwB8AAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T06:46:54.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "TopicTaskStudent.cs",
               "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTaskStudent.cs",
               "RelativeDocumentMoniker": "TopicTaskStudent.cs",
               "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTaskStudent.cs",
               "RelativeToolTip": "TopicTaskStudent.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA7wBgAAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T06:44:14.265Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T06:44:14.297Z",
-              "EditorCaption": " [Design]"
             }
           ]
         },
