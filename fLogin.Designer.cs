@@ -148,7 +148,8 @@
             Controls.Add(lblPasswordLogin);
             Controls.Add(lblUserLogin);
             Controls.Add(label1);
-            FormBorderStyle = FormBorderStyle.None;
+            ForeColor = SystemColors.ControlText;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
             Name = "fLogin";
             StartPosition = FormStartPosition.CenterScreen;
