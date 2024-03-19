@@ -60,7 +60,8 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(681, 323);
+            label20.BackColor = Color.Transparent;
+            label20.Location = new Point(679, 370);
             label20.Name = "label20";
             label20.Size = new Size(49, 20);
             label20.TabIndex = 58;
@@ -69,7 +70,8 @@
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(681, 269);
+            label19.BackColor = Color.Transparent;
+            label19.Location = new Point(679, 316);
             label19.Name = "label19";
             label19.Size = new Size(49, 20);
             label19.TabIndex = 56;
@@ -78,8 +80,9 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(565, 323);
+            label10.Location = new Point(563, 370);
             label10.Name = "label10";
             label10.Size = new Size(51, 20);
             label10.TabIndex = 57;
@@ -88,8 +91,9 @@
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(565, 269);
+            label9.Location = new Point(563, 316);
             label9.Name = "label9";
             label9.Size = new Size(53, 20);
             label9.TabIndex = 55;
@@ -98,7 +102,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(29, 269);
+            dataGridView1.Location = new Point(27, 316);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
@@ -107,7 +111,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(555, 362);
+            button1.Location = new Point(553, 409);
             button1.Name = "button1";
             button1.Size = new Size(217, 27);
             button1.TabIndex = 53;
@@ -117,7 +121,8 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(368, 33);
+            label18.BackColor = Color.Transparent;
+            label18.Location = new Point(366, 80);
             label18.Name = "label18";
             label18.Size = new Size(89, 20);
             label18.TabIndex = 52;
@@ -179,7 +184,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(555, 430);
+            button2.Location = new Point(553, 477);
             button2.Name = "button2";
             button2.Size = new Size(217, 27);
             button2.TabIndex = 45;
@@ -266,16 +271,17 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(304, -6);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(222, 9);
             label1.Name = "label1";
-            label1.Size = new Size(212, 30);
+            label1.Size = new Size(411, 53);
             label1.TabIndex = 35;
             label1.Text = "Topic Management";
             // 
             // button3
             // 
-            button3.Location = new Point(555, 397);
+            button3.Location = new Point(553, 444);
             button3.Name = "button3";
             button3.Size = new Size(217, 27);
             button3.TabIndex = 53;
@@ -299,7 +305,7 @@
             panel1.Controls.Add(label15);
             panel1.Controls.Add(label13);
             panel1.Controls.Add(label14);
-            panel1.Location = new Point(29, 67);
+            panel1.Location = new Point(27, 114);
             panel1.Name = "panel1";
             panel1.Size = new Size(743, 176);
             panel1.TabIndex = 59;
@@ -308,7 +314,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 499);
+            BackgroundImage = Properties.Resources.whiteback;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(819, 527);
             Controls.Add(panel1);
             Controls.Add(label20);
             Controls.Add(label19);

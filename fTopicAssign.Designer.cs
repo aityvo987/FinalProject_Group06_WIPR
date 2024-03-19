@@ -51,10 +51,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(445, 22);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(316, 10);
             label1.Name = "label1";
-            label1.Size = new Size(212, 30);
+            label1.Size = new Size(449, 62);
             label1.TabIndex = 0;
             label1.Text = "Topic Management";
             label1.Click += label1_Click;
@@ -62,8 +63,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(29, 77);
+            label2.Location = new Point(29, 76);
             label2.Name = "label2";
             label2.Size = new Size(92, 20);
             label2.TabIndex = 1;
@@ -72,6 +74,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(29, 131);
             label3.Name = "label3";
@@ -82,6 +85,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(29, 185);
             label4.Name = "label4";
@@ -92,6 +96,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(29, 240);
             label5.Name = "label5";
@@ -102,6 +107,7 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(29, 293);
             label6.Name = "label6";
@@ -112,6 +118,7 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(29, 349);
             label7.Name = "label7";
@@ -122,6 +129,7 @@
             // textBox6
             // 
             textBox6.Location = new Point(197, 349);
+            textBox6.Margin = new Padding(3, 4, 3, 4);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(234, 27);
             textBox6.TabIndex = 12;
@@ -129,7 +137,8 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(468, 77);
+            dataGridView1.Location = new Point(468, 76);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
@@ -140,6 +149,7 @@
             // 
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button1.Location = new Point(48, 435);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(281, 29);
             button1.TabIndex = 14;
@@ -150,6 +160,7 @@
             // 
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button2.Location = new Point(405, 435);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(268, 29);
             button2.TabIndex = 15;
@@ -160,6 +171,7 @@
             // 
             button3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             button3.Location = new Point(746, 435);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(278, 29);
             button3.TabIndex = 16;
@@ -169,8 +181,9 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(194, 77);
+            label8.Location = new Point(194, 76);
             label8.Name = "label8";
             label8.Size = new Size(89, 20);
             label8.TabIndex = 17;
@@ -179,6 +192,7 @@
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label9.Location = new Point(194, 131);
             label9.Name = "label9";
@@ -189,6 +203,7 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label10.Location = new Point(194, 185);
             label10.Name = "label10";
@@ -199,6 +214,7 @@
             // label11
             // 
             label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
             label11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label11.Location = new Point(194, 240);
             label11.Name = "label11";
@@ -209,6 +225,7 @@
             // label12
             // 
             label12.AutoSize = true;
+            label12.BackColor = Color.Transparent;
             label12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label12.Location = new Point(194, 293);
             label12.Name = "label12";
@@ -220,6 +237,8 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.whiteback;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1053, 518);
             Controls.Add(label12);
             Controls.Add(label11);
@@ -239,6 +258,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "fTopicAssign";
             Text = "fTopicAssign";
             Load += fTopicAssign_Load;
