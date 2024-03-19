@@ -16,5 +16,23 @@ namespace FInalProject_Group06
         {
             InitializeComponent();
         }
+
+        private void btnShowPass_Click(object sender, EventArgs e)
+        {
+            if (txtPass.PasswordChar == '*')
+            {
+                btnHidePass.BringToFront();
+                txtPass.PasswordChar = '\0';
+            }
+        }
+
+        private void btnHidePass_Click(object sender, EventArgs e)
+        {
+            if (txtPass.PasswordChar == '\0')
+            {
+                btnShowPass.BringToFront();
+                txtPass.PasswordChar = '*';
+            }
+        }
     }
 }
