@@ -21,5 +21,10 @@ namespace FInalProject_Group06
         {
 
         }
+
+        private void label69_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
