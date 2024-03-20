@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\topictaskstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:topictaskstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\topictaskstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:topictaskstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\topictask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:topictask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\ftopicregisterstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:ftopicregisterstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\ftopicregistercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:ftopicregistercreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\ftopicregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:ftopicregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\ftopicassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:ftopicassign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\fstudenttopics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:fstudenttopics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|e:\\i.t\\school_project\\windowprogramming\\qlsv_cuoiky\\fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{13FA9CE7-B05C-4732-AC5A-92229D6CAC02}|FInalProject_Group06.csproj|solutionrelative:fregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,34 +73,124 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopicTaskStudent.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTaskStudent.cs",
+              "RelativeDocumentMoniker": "TopicTaskStudent.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTaskStudent.cs [Design]",
+              "RelativeToolTip": "TopicTaskStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:53:59.982Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Title": "TopicTask.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTask.cs",
+              "RelativeDocumentMoniker": "TopicTask.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTask.cs [Design]",
+              "RelativeToolTip": "TopicTask.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T06:46:54.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T10:53:58.173Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TopicTaskStudent.cs",
-              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTaskStudent.cs",
-              "RelativeDocumentMoniker": "TopicTaskStudent.cs",
-              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\TopicTaskStudent.cs",
-              "RelativeToolTip": "TopicTaskStudent.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBgAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "fTopicRegisterStudent.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicRegisterStudent.cs",
+              "RelativeDocumentMoniker": "fTopicRegisterStudent.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicRegisterStudent.cs [Design]",
+              "RelativeToolTip": "fTopicRegisterStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T06:44:14.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T10:53:55.448Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fTopicRegisterCreate.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicRegisterCreate.cs",
+              "RelativeDocumentMoniker": "fTopicRegisterCreate.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicRegisterCreate.cs [Design]",
+              "RelativeToolTip": "fTopicRegisterCreate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:53:54.336Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fTopicRegister.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicRegister.cs",
+              "RelativeDocumentMoniker": "fTopicRegister.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicRegister.cs [Design]",
+              "RelativeToolTip": "fTopicRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:53:52.635Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fTopicAssign.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicAssign.cs",
+              "RelativeDocumentMoniker": "fTopicAssign.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fTopicAssign.cs [Design]",
+              "RelativeToolTip": "fTopicAssign.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:53:50.812Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fStudentTopics.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fStudentTopics.cs",
+              "RelativeDocumentMoniker": "fStudentTopics.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fStudentTopics.cs [Design]",
+              "RelativeToolTip": "fStudentTopics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:53:46.16Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fLogin.cs",
+              "RelativeDocumentMoniker": "fLogin.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fLogin.cs [Design]",
+              "RelativeToolTip": "fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:44:00.555Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:43:48.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fRegister.cs [Design]",
+              "DocumentMoniker": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fRegister.cs",
+              "RelativeDocumentMoniker": "fRegister.cs",
+              "ToolTip": "E:\\I.T\\School_Project\\WindowProgramming\\QLSV_CuoiKy\\fRegister.cs [Design]",
+              "RelativeToolTip": "fRegister.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:29:25.874Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

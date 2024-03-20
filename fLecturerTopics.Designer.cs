@@ -43,18 +43,20 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(402, 9);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Times New Roman", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(218, 9);
             label1.Name = "label1";
-            label1.Size = new Size(193, 28);
+            label1.Size = new Size(518, 68);
             label1.TabIndex = 0;
             label1.Text = "Topic Management";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(587, 67);
+            label2.Location = new Point(587, 106);
             label2.Name = "label2";
             label2.Size = new Size(51, 20);
             label2.TabIndex = 1;
@@ -63,8 +65,9 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(587, 117);
+            label3.Location = new Point(587, 156);
             label3.Name = "label3";
             label3.Size = new Size(114, 20);
             label3.TabIndex = 2;
@@ -73,8 +76,9 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(587, 174);
+            label4.Location = new Point(587, 213);
             label4.Name = "label4";
             label4.Size = new Size(71, 20);
             label4.TabIndex = 3;
@@ -83,7 +87,8 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(715, 67);
+            label6.BackColor = Color.Transparent;
+            label6.Location = new Point(715, 106);
             label6.Name = "label6";
             label6.Size = new Size(49, 20);
             label6.TabIndex = 1;
@@ -92,7 +97,8 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(715, 117);
+            label7.BackColor = Color.Transparent;
+            label7.Location = new Point(715, 156);
             label7.Name = "label7";
             label7.Size = new Size(108, 20);
             label7.TabIndex = 2;
@@ -101,7 +107,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(27, 58);
+            dataGridView1.Location = new Point(27, 97);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
@@ -110,7 +116,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(657, 319);
+            button1.Location = new Point(657, 358);
             button1.Name = "button1";
             button1.Size = new Size(214, 49);
             button1.TabIndex = 6;
@@ -119,7 +125,7 @@
             // 
             // listView1
             // 
-            listView1.Location = new Point(715, 174);
+            listView1.Location = new Point(715, 213);
             listView1.Name = "listView1";
             listView1.Size = new Size(240, 114);
             listView1.TabIndex = 7;
@@ -129,6 +135,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.whiteback;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(967, 444);
             Controls.Add(listView1);
             Controls.Add(button1);

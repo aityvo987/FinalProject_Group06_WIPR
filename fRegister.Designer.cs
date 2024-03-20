@@ -70,7 +70,7 @@
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(15, 80);
             label1.Name = "label1";
-            label1.Size = new Size(70, 15);
+            label1.Size = new Size(88, 20);
             label1.TabIndex = 2;
             label1.Text = "Username :";
             // 
@@ -81,7 +81,7 @@
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(15, 135);
             label2.Name = "label2";
-            label2.Size = new Size(42, 15);
+            label2.Size = new Size(55, 20);
             label2.TabIndex = 3;
             label2.Text = "Email :";
             // 
@@ -92,7 +92,7 @@
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(15, 194);
             label3.Name = "label3";
-            label3.Size = new Size(65, 15);
+            label3.Size = new Size(84, 20);
             label3.TabIndex = 4;
             label3.Text = "Password :";
             // 
@@ -103,7 +103,7 @@
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(15, 250);
             label4.Name = "label4";
-            label4.Size = new Size(113, 15);
+            label4.Size = new Size(145, 20);
             label4.TabIndex = 5;
             label4.Text = "Confirm Password :";
             // 
@@ -112,9 +112,9 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Times New Roman", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(131, 9);
+            label5.Location = new Point(136, 9);
             label5.Name = "label5";
-            label5.Size = new Size(148, 42);
+            label5.Size = new Size(191, 53);
             label5.TabIndex = 6;
             label5.Text = "Register";
             // 
@@ -122,40 +122,40 @@
             // 
             txtUsername.Location = new Point(165, 77);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(218, 23);
+            txtUsername.Size = new Size(218, 27);
             txtUsername.TabIndex = 7;
             // 
             // txtEmail
             // 
             txtEmail.Location = new Point(165, 132);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(218, 23);
+            txtEmail.Size = new Size(218, 27);
             txtEmail.TabIndex = 8;
             // 
             // txtPass
             // 
             txtPass.Location = new Point(165, 191);
             txtPass.Name = "txtPass";
-            txtPass.Size = new Size(218, 23);
+            txtPass.Size = new Size(218, 27);
             txtPass.TabIndex = 9;
             // 
             // txtPassConfirm
             // 
             txtPassConfirm.Location = new Point(165, 247);
             txtPassConfirm.Name = "txtPassConfirm";
-            txtPassConfirm.Size = new Size(218, 23);
+            txtPassConfirm.Size = new Size(218, 27);
             txtPassConfirm.TabIndex = 10;
             // 
             // textBox5
             // 
             textBox5.Location = new Point(524, 446);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(8, 23);
+            textBox5.Size = new Size(8, 27);
             textBox5.TabIndex = 11;
             // 
             // fRegister
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
