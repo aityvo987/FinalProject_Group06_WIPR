@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,10 @@ namespace FInalProject_Group06
 {
     public partial class fLogin : Form
     {
+        SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
+        LecturerDAO lecturerDAO = new LecturerDAO();
+        AccountDAO accountDAO = new AccountDAO();
+        Account account = new Account();
         public fLogin()
         {
             InitializeComponent();
@@ -33,6 +38,45 @@ namespace FInalProject_Group06
                 btnShowPass.BringToFront();
                 txtPass.PasswordChar = '*';
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            accountDAO.CreateAccount(account, txtUser.Text, txtPass.Text);
+            try
+            {
+                if (accountDAO.Login(account))
+                {
+
+                    account.role = accountDAO.GetAccountRole(account);
+                    account.memberId = accountDAO.GetMemberId(account);
+                    if (account.role == "2")
+                    {
+                        Lecturer lecturer = new Lecturer();
+                        lecturerDAO.FindLecturer(account, lecturer);
+                        Form1 f1 = new Form1();
+                        f1.Account = account;
+                        f1.Lecturer = lecturer;
+                        f1.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Wrong roles"+ account.role);
+                    }
+                    
+                }
+                else
+                {
+                    MessageBox.Show("Wrong credentials");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Sua that bai" + ex);
+            }
+            
         }
     }
 }

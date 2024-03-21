@@ -23,12 +23,12 @@ namespace FInalProject_Group06
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 TopicDAO topic = new TopicDAO();
-                if (topic.Addtopic(txtNametp.Text, txtTypetp.Text, txtNameins.Text, txtDescription.Text, txtRequirements.Text, txtStudent1.Text, txtStudent2.Text))
+                if (topic.AddTopic(txtNametp.Text, txtTypetp.Text, txtNameins.Text, txtDescription.Text, txtRequirements.Text, txtStudent1.Text, txtStudent2.Text))
                 MessageBox.Show("Them thanh cong");
-        }
+            }
             catch (Exception ex)
             {
                 MessageBox.Show("Them that bai" + ex);
@@ -36,7 +36,7 @@ namespace FInalProject_Group06
             finally
             {
                 conn.Close();
-            }
+            }*/
         }
     }
 }

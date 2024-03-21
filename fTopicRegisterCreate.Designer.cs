@@ -191,16 +191,7 @@ namespace FInalProject_Group06
             this.txtNameins.Size = new System.Drawing.Size(180, 27);
             this.txtNameins.TabIndex = 37;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(220, 9);
-            label5.Name = "label5";
-            label5.Size = new Size(312, 62);
-            label5.TabIndex = 36;
-            label5.Text = "Create Topic ";
+           
             // 
             // fTopicRegisterCreate
             // 

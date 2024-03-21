@@ -58,11 +58,11 @@
             label8 = new Label();
             label11 = new Label();
             label10 = new Label();
-            dataGridView1 = new DataGridView();
+            dgvTopicList1 = new DataGridView();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTopicList1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -253,7 +253,7 @@
             tabPage2.Controls.Add(label8);
             tabPage2.Controls.Add(label11);
             tabPage2.Controls.Add(label10);
-            tabPage2.Controls.Add(dataGridView1);
+            tabPage2.Controls.Add(dgvTopicList1);
             tabPage2.Location = new Point(4, 29);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
@@ -377,15 +377,15 @@
             label10.TabIndex = 1;
             label10.Text = "Name";
             // 
-            // dataGridView1
+            // dgvTopicList1
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(19, 21);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(555, 404);
-            dataGridView1.TabIndex = 0;
+            dgvTopicList1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTopicList1.Location = new Point(19, 21);
+            dgvTopicList1.Name = "dgvTopicList1";
+            dgvTopicList1.RowHeadersWidth = 51;
+            dgvTopicList1.RowTemplate.Height = 29;
+            dgvTopicList1.Size = new Size(555, 404);
+            dgvTopicList1.TabIndex = 0;
             // 
             // fTopicRegister
             // 
@@ -398,12 +398,13 @@
             Controls.Add(label1);
             Name = "fTopicRegister";
             Text = "fTopicRegister";
+            Load += fTopicRegister_load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTopicList1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -427,7 +428,7 @@
         private Label label15;
         private Label label11;
         private Label label10;
-        private DataGridView dataGridView1;
+        private DataGridView dgvTopicList1;
         private Label label4;
         private Label label2;
         private TextBox textBox3;
