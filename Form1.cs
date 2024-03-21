@@ -37,7 +37,6 @@ namespace FInalProject_Group06
             }
             else
             {
-                
                 fTopicRegister f3 = new fTopicRegister();
                 f3.Account = Account;
                 f3.Lecturer = Lecturer;
@@ -49,6 +48,7 @@ namespace FInalProject_Group06
         {
             fLogin fLogin = new fLogin();
             fLogin.Show();
+            this.Close();
         }
     }
 }

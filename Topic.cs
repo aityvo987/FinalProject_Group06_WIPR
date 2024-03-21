@@ -12,6 +12,8 @@ namespace FInalProject_Group06
         public string name { get; set; }
         public int major { get; set; }
         public string type { get; set; }
+        public string description { get; set; }
+        public string requirement { get; set; }
         public string student1 { get; set; }
         public string student2 { get; set; }
         public string student3 { get; set; }

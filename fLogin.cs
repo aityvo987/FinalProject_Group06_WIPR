@@ -52,13 +52,13 @@ namespace FInalProject_Group06
                     account.memberId = accountDAO.GetMemberId(account);
                     if (account.role == "2")
                     {
-                        Lecturer lecturer = new Lecturer();
-                        lecturerDAO.FindLecturer(account, lecturer);
+                        Lecturer lecturer = lecturerDAO.FindLecturer(account);
                         Form1 f1 = new Form1();
                         f1.Account = account;
                         f1.Lecturer = lecturer;
                         f1.Show();
-                        this.Hide();
+                        
+                        
                     }
                     else
                     {

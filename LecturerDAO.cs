@@ -32,21 +32,28 @@ namespace FInalProject_Group06
             }
         }
 
-        public void FindLecturer(Account account,Lecturer lecturer)
+        public Lecturer FindLecturer(Account account)
         {
+            Lecturer lecturer = new Lecturer();
             string sqlStr = string.Format("SELECT * FROM Lecturer WHERE Id = '{0}'", account.memberId);
-
-                conn.Open();
-
-                SqlCommand command = new SqlCommand(sqlStr, conn);
-                SqlDataReader reader = command.ExecuteReader();
-
-                if (reader.Read())
-                {
-                    lecturer.id = Convert.ToInt32(reader["Id"]);
-                    lecturer.name = reader["Name"].ToString();
-                }
+            conn.Open();
+            SqlCommand command = new SqlCommand(sqlStr, conn);
+            SqlDataReader reader = command.ExecuteReader();
+            if (reader.Read())
+            {
+                lecturer.id = Convert.ToInt32(reader["Id"]);
+                lecturer.name = reader["Name"].ToString();
+                lecturer.dateOfBirth = Convert.ToDateTime(reader["DateofBirth"]);
+                lecturer.name = reader["Email"].ToString();
+                lecturer.phone = Convert.ToInt32(reader["Phone"]);
+                lecturer.citizenId = Convert.ToInt32(reader["CitizenId"]);
+                lecturer.name = reader["Name"].ToString();
+                lecturer.major = Convert.ToInt32(reader["Major"]);
                 reader.Close();
+                return lecturer;
+            }
+            reader.Close();
+            return null;
         }
     }
 }

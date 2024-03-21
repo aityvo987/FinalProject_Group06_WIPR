@@ -33,27 +33,27 @@
             label5 = new Label();
             button1 = new Button();
             button2 = new Button();
-            comboBox1 = new ComboBox();
+            cbxType = new ComboBox();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             label4 = new Label();
             label2 = new Label();
             comboBox3 = new ComboBox();
             comboBox2 = new ComboBox();
-            textBox3 = new TextBox();
+            txtReqRegister = new TextBox();
             label7 = new Label();
             label6 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtDesRegister = new TextBox();
+            txtNameTopic = new TextBox();
             tabPage2 = new TabPage();
-            button4 = new Button();
-            button3 = new Button();
-            label19 = new Label();
+            btnAccept = new Button();
+            btnDecline = new Button();
+            lblYear = new Label();
             label14 = new Label();
-            label13 = new Label();
-            label9 = new Label();
-            label16 = new Label();
-            label15 = new Label();
+            lblStudent2 = new Label();
+            lblStudent1 = new Label();
+            lblType = new Label();
+            lblNameTopic = new Label();
             label12 = new Label();
             label8 = new Label();
             label11 = new Label();
@@ -106,6 +106,7 @@
             button1.TabIndex = 11;
             button1.Text = "Register";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -117,13 +118,13 @@
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // cbxType
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(165, 133);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(223, 28);
-            comboBox1.TabIndex = 13;
+            cbxType.FormattingEnabled = true;
+            cbxType.Location = new Point(165, 133);
+            cbxType.Name = "cbxType";
+            cbxType.Size = new Size(223, 28);
+            cbxType.TabIndex = 13;
             // 
             // tabControl1
             // 
@@ -143,14 +144,14 @@
             tabPage1.Controls.Add(label3);
             tabPage1.Controls.Add(comboBox3);
             tabPage1.Controls.Add(comboBox2);
-            tabPage1.Controls.Add(comboBox1);
-            tabPage1.Controls.Add(textBox3);
+            tabPage1.Controls.Add(cbxType);
+            tabPage1.Controls.Add(txtReqRegister);
             tabPage1.Controls.Add(label7);
             tabPage1.Controls.Add(label6);
             tabPage1.Controls.Add(label5);
-            tabPage1.Controls.Add(textBox1);
+            tabPage1.Controls.Add(txtDesRegister);
             tabPage1.Controls.Add(button2);
-            tabPage1.Controls.Add(textBox2);
+            tabPage1.Controls.Add(txtNameTopic);
             tabPage1.Location = new Point(4, 29);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
@@ -195,13 +196,13 @@
             comboBox2.Size = new Size(41, 28);
             comboBox2.TabIndex = 13;
             // 
-            // textBox3
+            // txtReqRegister
             // 
-            textBox3.Location = new Point(163, 296);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(754, 107);
-            textBox3.TabIndex = 7;
+            txtReqRegister.Location = new Point(163, 296);
+            txtReqRegister.Multiline = true;
+            txtReqRegister.Name = "txtReqRegister";
+            txtReqRegister.Size = new Size(754, 107);
+            txtReqRegister.TabIndex = 7;
             // 
             // label7
             // 
@@ -223,32 +224,32 @@
             label6.TabIndex = 4;
             label6.Text = "Min Student(s)";
             // 
-            // textBox1
+            // txtDesRegister
             // 
-            textBox1.Location = new Point(165, 200);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(754, 76);
-            textBox1.TabIndex = 7;
+            txtDesRegister.Location = new Point(165, 200);
+            txtDesRegister.Multiline = true;
+            txtDesRegister.Name = "txtDesRegister";
+            txtDesRegister.Size = new Size(754, 76);
+            txtDesRegister.TabIndex = 7;
             // 
-            // textBox2
+            // txtNameTopic
             // 
-            textBox2.Location = new Point(165, 52);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(754, 45);
-            textBox2.TabIndex = 7;
+            txtNameTopic.Location = new Point(165, 52);
+            txtNameTopic.Multiline = true;
+            txtNameTopic.Name = "txtNameTopic";
+            txtNameTopic.Size = new Size(754, 45);
+            txtNameTopic.TabIndex = 7;
             // 
             // tabPage2
             // 
-            tabPage2.Controls.Add(button4);
-            tabPage2.Controls.Add(button3);
-            tabPage2.Controls.Add(label19);
+            tabPage2.Controls.Add(btnAccept);
+            tabPage2.Controls.Add(btnDecline);
+            tabPage2.Controls.Add(lblYear);
             tabPage2.Controls.Add(label14);
-            tabPage2.Controls.Add(label13);
-            tabPage2.Controls.Add(label9);
-            tabPage2.Controls.Add(label16);
-            tabPage2.Controls.Add(label15);
+            tabPage2.Controls.Add(lblStudent2);
+            tabPage2.Controls.Add(lblStudent1);
+            tabPage2.Controls.Add(lblType);
+            tabPage2.Controls.Add(lblNameTopic);
             tabPage2.Controls.Add(label12);
             tabPage2.Controls.Add(label8);
             tabPage2.Controls.Add(label11);
@@ -262,34 +263,36 @@
             tabPage2.Text = "Pending Topic";
             tabPage2.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnAccept
             // 
-            button4.BackColor = Color.Chartreuse;
-            button4.Location = new Point(847, 365);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 6;
-            button4.Text = "Accept";
-            button4.UseVisualStyleBackColor = false;
+            btnAccept.BackColor = Color.Chartreuse;
+            btnAccept.Location = new Point(847, 365);
+            btnAccept.Name = "btnAccept";
+            btnAccept.Size = new Size(94, 29);
+            btnAccept.TabIndex = 6;
+            btnAccept.Text = "Accept";
+            btnAccept.UseVisualStyleBackColor = false;
+            btnAccept.Click += btnAccept_Click;
             // 
-            // button3
+            // btnDecline
             // 
-            button3.BackColor = Color.IndianRed;
-            button3.Location = new Point(604, 365);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 6;
-            button3.Text = "Decline";
-            button3.UseVisualStyleBackColor = false;
+            btnDecline.BackColor = Color.IndianRed;
+            btnDecline.Location = new Point(604, 365);
+            btnDecline.Name = "btnDecline";
+            btnDecline.Size = new Size(94, 29);
+            btnDecline.TabIndex = 6;
+            btnDecline.Text = "Decline";
+            btnDecline.UseVisualStyleBackColor = false;
+            btnDecline.Click += btnDecline_Click;
             // 
-            // label19
+            // lblYear
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(729, 303);
-            label19.Name = "label19";
-            label19.Size = new Size(37, 20);
-            label19.TabIndex = 5;
-            label19.Text = "Year";
+            lblYear.AutoSize = true;
+            lblYear.Location = new Point(729, 303);
+            lblYear.Name = "lblYear";
+            lblYear.Size = new Size(37, 20);
+            lblYear.TabIndex = 5;
+            lblYear.Text = "Year";
             // 
             // label14
             // 
@@ -301,41 +304,41 @@
             label14.TabIndex = 5;
             label14.Text = "Year";
             // 
-            // label13
+            // lblStudent2
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(729, 237);
-            label13.Name = "label13";
-            label13.Size = new Size(79, 20);
-            label13.TabIndex = 2;
-            label13.Text = "Student ID";
+            lblStudent2.AutoSize = true;
+            lblStudent2.Location = new Point(729, 237);
+            lblStudent2.Name = "lblStudent2";
+            lblStudent2.Size = new Size(79, 20);
+            lblStudent2.TabIndex = 2;
+            lblStudent2.Text = "Student ID";
             // 
-            // label9
+            // lblStudent1
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(729, 170);
-            label9.Name = "label9";
-            label9.Size = new Size(79, 20);
-            label9.TabIndex = 2;
-            label9.Text = "Student ID";
+            lblStudent1.AutoSize = true;
+            lblStudent1.Location = new Point(729, 170);
+            lblStudent1.Name = "lblStudent1";
+            lblStudent1.Size = new Size(79, 20);
+            lblStudent1.TabIndex = 2;
+            lblStudent1.Text = "Student ID";
             // 
-            // label16
+            // lblType
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(729, 107);
-            label16.Name = "label16";
-            label16.Size = new Size(56, 20);
-            label16.TabIndex = 2;
-            label16.Text = "Mobile";
+            lblType.AutoSize = true;
+            lblType.Location = new Point(729, 107);
+            lblType.Name = "lblType";
+            lblType.Size = new Size(56, 20);
+            lblType.TabIndex = 2;
+            lblType.Text = "Mobile";
             // 
-            // label15
+            // lblNameTopic
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(729, 48);
-            label15.Name = "label15";
-            label15.Size = new Size(49, 20);
-            label15.TabIndex = 1;
-            label15.Text = "Name";
+            lblNameTopic.AutoSize = true;
+            lblNameTopic.Location = new Point(729, 48);
+            lblNameTopic.Name = "lblNameTopic";
+            lblNameTopic.Size = new Size(49, 20);
+            lblNameTopic.TabIndex = 1;
+            lblNameTopic.Text = "Name";
             // 
             // label12
             // 
@@ -386,6 +389,8 @@
             dgvTopicList1.RowTemplate.Height = 29;
             dgvTopicList1.Size = new Size(555, 404);
             dgvTopicList1.TabIndex = 0;
+            dgvTopicList1.CellClick += dgvTopic_CellClick;
+            dgvTopicList1.CellFormatting += dgvTopic_CellFormatting;
             // 
             // fTopicRegister
             // 
@@ -416,31 +421,31 @@
         private Label label5;
         private Button button1;
         private Button button2;
-        private ComboBox comboBox1;
+        private ComboBox cbxType;
         private TabControl tabControl1;
         private TabPage tabPage1;
         private TabPage tabPage2;
-        private Button button4;
-        private Button button3;
-        private Label label19;
+        private Button btnAccept;
+        private Button btnDecline;
+        private Label lblYear;
         private Label label14;
-        private Label label16;
-        private Label label15;
+        private Label lblType;
+        private Label lblNameTopic;
         private Label label11;
         private Label label10;
         private DataGridView dgvTopicList1;
         private Label label4;
         private Label label2;
-        private TextBox textBox3;
-        private TextBox textBox1;
+        private TextBox txtReqRegister;
+        private TextBox txtDesRegister;
         private ComboBox comboBox2;
         private Label label6;
         private ComboBox comboBox3;
         private Label label7;
-        private Label label13;
-        private Label label9;
+        private Label lblStudent2;
+        private Label lblStudent1;
         private Label label12;
         private Label label8;
-        private TextBox textBox2;
+        private TextBox txtNameTopic;
     }
 }

@@ -20,7 +20,7 @@ namespace FInalProject_Group06
             return dbConn.LoadTable(sqlStr);
         }
         
-        public void CreateTopic(Topic topic, string name, int major, string type, 
+        public void CreateTopic(Topic topic, string name, int major, string type, string description, string requirement,
             string student1, string student2, string student3, string instructor, string thesisLecturer, 
             int semester, int year)
         {
@@ -29,6 +29,8 @@ namespace FInalProject_Group06
                 topic.name = name;
                 topic.major = major;
                 topic.type = type;
+                topic.description = description;
+                topic.requirement = requirement;
                 topic.student1 = student1;
                 topic.student2 = student2;
                 topic.student3 = student3;
@@ -41,8 +43,8 @@ namespace FInalProject_Group06
         }
         public bool AddTopic(Topic topic)
         {
-            string sqlStr = string.Format("INSERT INTO Topic(name, major, type, student1, student2, student3, instructor, thesisLecturer, semester, year) VALUES ('{0}', '{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}',,'{10}')",
-                topic.name, topic.major, topic.type, topic.student1, topic.student2, topic.student3, topic.instructor, topic.thesisLecturer, topic.semester, topic.year, topic.status);
+            string sqlStr = string.Format("INSERT INTO Topic(name, major, type,description,requirement, student1, student2, student3, instructor, thesisLecturer, semester, year, status) VALUES ('{0}', '{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}','{11}','{12}')",
+                topic.name, topic.major, topic.type, topic.description, topic.requirement, topic.student1, topic.student2, topic.student3, topic.instructor, topic.thesisLecturer, topic.semester, topic.year, topic.status);
             return dbConn.Execute(sqlStr);
         }
         public bool DeleteTopic(Topic topic)
@@ -53,9 +55,9 @@ namespace FInalProject_Group06
         }
         public bool EditTopic(Topic topic)
         {
-            string sqlStr = string.Format("UPDATE Topic SET name = '{1}', major =  '{2}', type= '{3}', student1= '{4}', student2= '{5}', student3= '{6}', " +
-                "instructor= '{7},thesisLecturer= '{8},semester= '{9},year= '{10},status= '{11}' WHERE id = {0}", 
-                topic.id, topic.name, topic.major, topic.type, topic.student1, topic.student2, topic.student3, topic.instructor, topic.thesisLecturer, topic.semester, topic.year, topic.status);
+            string sqlStr = string.Format("UPDATE Topic SET name = '{1}', major =  '{2}', type= '{3}',description= '{4}',requirement= '{5}', student1= '{6}', student2= '{7}', student3= '{8}', " +
+                "instructor= '{9},thesisLecturer= '{10},semester= '{11},year= '{12},status= '{13}' WHERE id = {0}", 
+                topic.id, topic.name, topic.major, topic.type,topic.description,topic.requirement, topic.student1, topic.student2, topic.student3, topic.instructor, topic.thesisLecturer, topic.semester, topic.year, topic.status);
             return dbConn.Execute(sqlStr);
 
         }
@@ -69,14 +71,14 @@ namespace FInalProject_Group06
         }
         public bool ApproveTopic(Topic topic)
         {
-            string sqlStr = string.Format("UPDATE Topic SET status= '{1}' WHERE id = {0}",1,topic.id);
+            string sqlStr = string.Format("UPDATE Topic SET Status= '{1}' WHERE Id = {0}",topic.id,1);
             return dbConn.Execute(sqlStr);
 
         }
 
         public bool DisapproveTopic(Topic topic)
         {
-            string sqlStr = string.Format("UPDATE Topic SET status= '{1}' WHERE id = {0}", -1, topic.id);
+            string sqlStr = string.Format("UPDATE Topic SET Status= '{1}' WHERE Id = {0}", topic.id,-1);
             return dbConn.Execute(sqlStr);
 
         }
