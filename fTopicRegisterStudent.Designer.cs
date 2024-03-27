@@ -36,12 +36,8 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            dataGridView1 = new DataGridView();
-            TopicName = new DataGridViewTextBoxColumn();
-            TopicType = new DataGridViewTextBoxColumn();
-            MaxStu = new DataGridViewTextBoxColumn();
-            MinStu = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            dgvStudentTopic = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgvStudentTopic).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -122,45 +118,19 @@
             button3.TabIndex = 3;
             button3.Text = "Create";
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
-            // dataGridView1
+            // dgvStudentTopic
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { TopicName, TopicType, MaxStu, MinStu });
-            dataGridView1.Location = new Point(49, 114);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(616, 390);
-            dataGridView1.TabIndex = 2;
-            // 
-            // TopicName
-            // 
-            TopicName.HeaderText = "TopicName";
-            TopicName.MinimumWidth = 6;
-            TopicName.Name = "TopicName";
-            TopicName.Width = 125;
-            // 
-            // TopicType
-            // 
-            TopicType.HeaderText = "TopicType";
-            TopicType.MinimumWidth = 6;
-            TopicType.Name = "TopicType";
-            TopicType.Width = 125;
-            // 
-            // MaxStu
-            // 
-            MaxStu.HeaderText = "MaxStu";
-            MaxStu.MinimumWidth = 6;
-            MaxStu.Name = "MaxStu";
-            MaxStu.Width = 125;
-            // 
-            // MinStu
-            // 
-            MinStu.HeaderText = "MinStu";
-            MinStu.MinimumWidth = 6;
-            MinStu.Name = "MinStu";
-            MinStu.Width = 125;
+            dgvStudentTopic.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvStudentTopic.Location = new Point(49, 114);
+            dgvStudentTopic.Name = "dgvStudentTopic";
+            dgvStudentTopic.RowHeadersWidth = 51;
+            dgvStudentTopic.RowTemplate.Height = 29;
+            dgvStudentTopic.Size = new Size(616, 390);
+            dgvStudentTopic.TabIndex = 2;
+            dgvStudentTopic.CellContentClick += dgvStudentTopic_CellContentClick;
+            dgvStudentTopic.CellFormatting += dgvTopic_CellFormatting;
             // 
             // fTopicRegisterStudent
             // 
@@ -172,7 +142,7 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(dataGridView1);
+            Controls.Add(dgvStudentTopic);
             Controls.Add(comboBox2);
             Controls.Add(comboBox1);
             Controls.Add(label3);
@@ -181,7 +151,7 @@
             Name = "fTopicRegisterStudent";
             Text = "fTopicRegisterStudent";
             Load += fTopicRegisterStudent_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvStudentTopic).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -196,10 +166,6 @@
         private Button button1;
         private Button button2;
         private Button button3;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn TopicName;
-        private DataGridViewTextBoxColumn TopicType;
-        private DataGridViewTextBoxColumn MaxStu;
-        private DataGridViewTextBoxColumn MinStu;
+        private DataGridView dgvStudentTopic;
     }
 }

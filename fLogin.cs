@@ -15,6 +15,7 @@ namespace FInalProject_Group06
     {
         SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
         LecturerDAO lecturerDAO = new LecturerDAO();
+        StudentDAO studentDAO = new StudentDAO();
         AccountDAO accountDAO = new AccountDAO();
         Account account = new Account();
         public fLogin()
@@ -57,8 +58,14 @@ namespace FInalProject_Group06
                         f1.Account = account;
                         f1.Lecturer = lecturer;
                         f1.Show();
-                        
-                        
+                    }
+                    else if (account.role=="1")
+                    {
+                        Student student = studentDAO.FindStudent(account);
+                        Form1 f1 = new Form1();
+                        f1.Account = account;
+                        f1.Student = student;
+                        f1.Show();
                     }
                     else
                     {

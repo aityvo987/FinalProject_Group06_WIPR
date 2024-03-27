@@ -4,6 +4,7 @@ namespace FInalProject_Group06
     {
         public Account Account { get; set; }
         public Lecturer Lecturer { get; set; }
+        public Student  Student { get; set; }
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +34,8 @@ namespace FInalProject_Group06
             if (Account.role == "1")
             {
                 fTopicRegisterStudent f3 = new fTopicRegisterStudent();
+                f3.Account = Account;
+                f3.Student = Student;
                 f3.Show();
             }
             else
