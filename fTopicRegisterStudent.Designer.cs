@@ -34,8 +34,8 @@
             label3 = new Label();
             comboBox2 = new ComboBox();
             button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btnDetail = new Button();
+            btnCreate = new Button();
             dgvStudentTopic = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dgvStudentTopic).BeginInit();
             SuspendLayout();
@@ -99,26 +99,27 @@
             button1.Text = "Cancel";
             button1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnDetail
             // 
-            button2.BackColor = Color.Chartreuse;
-            button2.Location = new Point(262, 528);
-            button2.Name = "button2";
-            button2.Size = new Size(192, 29);
-            button2.TabIndex = 3;
-            button2.Text = "Detail";
-            button2.UseVisualStyleBackColor = false;
+            btnDetail.BackColor = Color.Chartreuse;
+            btnDetail.Location = new Point(262, 528);
+            btnDetail.Name = "btnDetail";
+            btnDetail.Size = new Size(192, 29);
+            btnDetail.TabIndex = 3;
+            btnDetail.Text = "Detail";
+            btnDetail.UseVisualStyleBackColor = false;
+            btnDetail.Click += btnDetail_Click;
             // 
-            // button3
+            // btnCreate
             // 
-            button3.BackColor = Color.Yellow;
-            button3.Location = new Point(473, 528);
-            button3.Name = "button3";
-            button3.Size = new Size(192, 29);
-            button3.TabIndex = 3;
-            button3.Text = "Create";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            btnCreate.BackColor = Color.Yellow;
+            btnCreate.Location = new Point(473, 528);
+            btnCreate.Name = "btnCreate";
+            btnCreate.Size = new Size(192, 29);
+            btnCreate.TabIndex = 3;
+            btnCreate.Text = "Create";
+            btnCreate.UseVisualStyleBackColor = false;
+            btnCreate.Click += btnCreate_Click;
             // 
             // dgvStudentTopic
             // 
@@ -129,6 +130,7 @@
             dgvStudentTopic.RowTemplate.Height = 29;
             dgvStudentTopic.Size = new Size(616, 390);
             dgvStudentTopic.TabIndex = 2;
+            dgvStudentTopic.CellClick += dgvStudentTopic_CellContentClick;
             dgvStudentTopic.CellContentClick += dgvStudentTopic_CellContentClick;
             dgvStudentTopic.CellFormatting += dgvTopic_CellFormatting;
             // 
@@ -139,8 +141,8 @@
             BackgroundImage = Properties.Resources.whiteback;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(714, 581);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnCreate);
+            Controls.Add(btnDetail);
             Controls.Add(button1);
             Controls.Add(dgvStudentTopic);
             Controls.Add(comboBox2);
@@ -164,8 +166,8 @@
         private Label label3;
         private ComboBox comboBox2;
         private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button btnDetail;
+        private Button btnCreate;
         private DataGridView dgvStudentTopic;
     }
 }

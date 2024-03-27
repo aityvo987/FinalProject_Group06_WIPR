@@ -101,14 +101,42 @@ namespace FInalProject_Group06
 
         private void dgvStudentTopic_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvStudentTopic.Rows[e.RowIndex];
+                if (int.TryParse(row.Cells[0].Value.ToString(), out int id))
+                {
+                    topicNew.id = id;
+                    MessageBox.Show(topicNew.id.ToString());
+                }
+                else
+                {
+                    MessageBox.Show("Something wrong happens");
+                }
 
+            }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnCreate_Click(object sender, EventArgs e)
         {
             fTopicRegisterCreate fTopicRegisterCreate = new fTopicRegisterCreate();
             fTopicRegisterCreate.Show();
             this.Close();
         }
+
+        private void btnDetail_Click(object sender, EventArgs e)
+        {
+            if (topicNew.id!=0) {
+                fTopicRegisterGet fTopicRegister = new fTopicRegisterGet();
+                fTopicRegister.Topic = topicNew;
+                fTopicRegister.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please pick a Topic");
+            }
+
+        }
+
     }
 }
