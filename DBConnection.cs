@@ -47,6 +47,36 @@ namespace FInalProject_Group06
 
             return hasMatch;
         }
+
+        public List<Dictionary<string, string>> ExecuteQuery(string sqlStr)
+        {
+            conn.Open();
+            using (SqlCommand command = new SqlCommand(sqlStr, conn))
+            {
+                List<Dictionary<string, string>> result = new List<Dictionary<string, string>>();
+
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Dictionary<string, string> row = new Dictionary<string, string>();
+
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            string columnName = reader.GetName(i);
+                            string columnValue = reader.IsDBNull(i) ? null : reader.GetValue(i).ToString();
+                            row[columnName] = columnValue;
+                        }
+
+                        result.Add(row);
+                    }
+                }
+                conn.Close();
+                return result;
+            }
+            
+        }
+
         public string ExecuteResult(string sqlStr)
         {
             string result = null;

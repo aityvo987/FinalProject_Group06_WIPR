@@ -82,6 +82,33 @@ namespace FInalProject_Group06
             return dbConn.Execute(sqlStr);
 
         }
+        public bool FindTopic(Topic topic)
+        {
+            string sqlStr = string.Format("SELECT * FROM Topic WHERE Id = '{0}'", topic.id);
+            var result = dbConn.ExecuteQuery(sqlStr);
+
+            if (result != null && result.Count > 0)
+            {
+                topic.name = result[0]["Name"];
+                topic.major = int.Parse(result[0]["Major"]);
+                topic.type = result[0]["Type"];
+                topic.description = result[0]["Description"];
+                topic.requirement = result[0]["Requirement"];
+                topic.student1 = result[0]["Student1"];
+                topic.student2 = result[0]["Student2"];
+                topic.student3 = result[0]["Student3"];
+                topic.instructor = result[0]["Instructor"];
+                topic.thesisLecturer = result[0]["ThesisLecturer"];
+                topic.semester = int.Parse(result[0]["Semester"]);
+                topic.year = int.Parse(result[0]["Year"]);
+                topic.status = int.Parse(result[0]["Status"]);
+
+                return true;
+            }
+
+            return false;
+        }
+
 
     }
 }
