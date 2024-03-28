@@ -43,6 +43,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(326, 9);
             label1.Name = "label1";
@@ -63,6 +64,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(38, 351);
             label2.Name = "label2";
@@ -73,6 +75,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(38, 395);
             label3.Name = "label3";
@@ -126,6 +129,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.whiteback;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 520);
             Controls.Add(button3);
             Controls.Add(button2);
