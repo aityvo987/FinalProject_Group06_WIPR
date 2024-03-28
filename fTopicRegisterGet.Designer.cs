@@ -165,6 +165,7 @@
             btnRegister.TabIndex = 36;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = false;
+            btnRegister.Click += btnRegister_Click;
             // 
             // txtStudent1
             // 

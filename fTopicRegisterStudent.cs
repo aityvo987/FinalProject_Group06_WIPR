@@ -107,7 +107,6 @@ namespace FInalProject_Group06
                 if (int.TryParse(row.Cells[0].Value.ToString(), out int id))
                 {
                     topicNew.id = id;
-                    MessageBox.Show(topicNew.id.ToString());
                 }
                 else
                 {
@@ -126,14 +125,14 @@ namespace FInalProject_Group06
 
         private void btnDetail_Click(object sender, EventArgs e)
         {
-            if (topicNew.id!=0) {
+            if (topicDAO.FindTopic(topicNew)) {
                 fTopicRegisterGet fTopicRegister = new fTopicRegisterGet();
                 fTopicRegister.Topic = topicNew;
                 fTopicRegister.Show();
             }
             else
             {
-                MessageBox.Show("Please pick a Topic");
+                MessageBox.Show("Please select a valid Topic");
             }
 
         }

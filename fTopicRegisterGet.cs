@@ -29,7 +29,7 @@ namespace FInalProject_Group06
 
         private void GetTopic()
         {
-            if (topicDAO.FindTopic(Topic))
+            if (!string.IsNullOrEmpty(Topic.name))
             {
                 lblTopicName.Text = Topic.name;
                 lblDescription.Text = Topic.description;
@@ -59,6 +59,25 @@ namespace FInalProject_Group06
             else
             {
                 MessageBox.Show("No topic Found " + Topic.id.ToString());
+            }
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            Topic.student1 = txtStudent1.Text;
+            Topic.student2 = txtStudent2.Text;
+
+            if (!string.IsNullOrEmpty(Topic.student1)|| !string.IsNullOrEmpty(Topic.student2))
+            {
+                if(topicDAO.AddStudentTopic(Topic)){
+                    MessageBox.Show("Register successfully");
+                    GetTopic();
+                }
+                else
+                {
+                    MessageBox.Show("Register unsuccessfully");
+                }
+
             }
         }
     }

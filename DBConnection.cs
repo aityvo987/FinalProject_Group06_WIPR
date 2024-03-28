@@ -71,6 +71,7 @@ namespace FInalProject_Group06
                         result.Add(row);
                     }
                 }
+                conn.Close();
                 return result;
             }
             
