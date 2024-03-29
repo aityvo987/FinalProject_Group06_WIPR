@@ -34,5 +34,10 @@ namespace FInalProject_Group06
                 txtPass.PasswordChar = '*';
             }
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
