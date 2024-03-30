@@ -1,4 +1,4 @@
-﻿namespace FInalProject_Group06
+namespace FInalProject_Group06
 {
     partial class fLogin
     {

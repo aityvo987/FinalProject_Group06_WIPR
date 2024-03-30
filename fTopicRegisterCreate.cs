@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +15,7 @@ namespace FInalProject_Group06
 {
     public partial class fTopicRegisterCreate : Form
     {
-        SqlConnection conn = new SqlConnection(Properties.Settings.Default.connStr);
+        DAOTopic topic = new DAOTopic();
         public fTopicRegisterCreate()
         {
             InitializeComponent();
@@ -23,20 +23,7 @@ namespace FInalProject_Group06
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*try
-            {
-                TopicDAO topic = new TopicDAO();
-                if (topic.AddTopic(txtNametp.Text, txtTypetp.Text, txtNameins.Text, txtDescription.Text, txtRequirements.Text, txtStudent1.Text, txtStudent2.Text))
-                MessageBox.Show("Them thanh cong");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Them that bai" + ex);
-            }
-            finally
-            {
-                conn.Close();
-            }*/
+            topic.AddTopic(txtName.Text,cbType.Text,cbInstructor.Text,txtDescription.Text,txtRequirement.Text,txtStudent1.Text,txtStudent2.Text);
         }
     }
 }
