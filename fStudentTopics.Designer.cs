@@ -46,7 +46,7 @@
             lblYearNum = new Label();
             lblTopic = new Label();
             lblTopicName = new Label();
-            button1 = new Button();
+            btnCheckTask = new Button();
             dgvTask = new DataGridView();
             lblTask = new Label();
             lblTaskName = new Label();
@@ -227,15 +227,15 @@
             lblTopicName.TabIndex = 30;
             lblTopicName.Text = "Topic Name";
             // 
-            // button1
+            // btnCheckTask
             // 
-            button1.Location = new Point(582, 466);
-            button1.Name = "button1";
-            button1.Size = new Size(217, 27);
-            button1.TabIndex = 31;
-            button1.Text = "Check Task";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnCheckTask.Location = new Point(582, 466);
+            btnCheckTask.Name = "btnCheckTask";
+            btnCheckTask.Size = new Size(217, 27);
+            btnCheckTask.TabIndex = 31;
+            btnCheckTask.Text = "Check Task";
+            btnCheckTask.UseVisualStyleBackColor = true;
+            btnCheckTask.Click += button1_Click;
             // 
             // dgvTask
             // 
@@ -323,7 +323,7 @@
             Controls.Add(lblTaskName);
             Controls.Add(lblTask);
             Controls.Add(dgvTask);
-            Controls.Add(button1);
+            Controls.Add(btnCheckTask);
             Controls.Add(lblTopicName);
             Controls.Add(button2);
             Controls.Add(lblTopic);
@@ -358,7 +358,7 @@
         private Label lblYearNum;
         private Label lblTopic;
         private Label lblTopicName;
-        private Button button1;
+        private Button btnCheckTask;
         private DataGridView dgvTask;
         private Label lblTask;
         private Label lblTaskName;

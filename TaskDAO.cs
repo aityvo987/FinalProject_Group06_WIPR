@@ -55,7 +55,22 @@ namespace FInalProject_Group06
 
         }
 
+        public bool FindTask(Task task)
+        {
+            string sqlStr = string.Format("SELECT * FROM Task WHERE Id = '{0}'", task.id);
+            var result = dbConn.ExecuteQuery(sqlStr);
 
+            if (result != null && result.Count > 0)
+            {
+                task.name = result[0]["Name"];
+                task.detail = result[0]["Detail"];
+                task.topicId = int.Parse(result[0]["TopicId"]);
+                task.status = int.Parse(result[0]["Status"]);
+                return true;
+            }
+
+            return false;
+        }
 
     }
 }

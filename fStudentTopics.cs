@@ -39,7 +39,6 @@ namespace FInalProject_Group06
         {
             try
             {
-                MessageBox.Show(Topic.id.ToString());
                 DataTable dtTopic = taskDAO.LoadTable(Topic.id);
                 dgvTask.DataSource = dtTopic;
 
@@ -82,8 +81,17 @@ namespace FInalProject_Group06
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TopicTaskStudent topicTaskStudent = new TopicTaskStudent();
-            topicTaskStudent.Show();
+            if (taskDAO.FindTask(task))
+            {
+                TopicTaskStudent topicTaskStudent = new TopicTaskStudent();
+                topicTaskStudent.Task = task;
+                topicTaskStudent.Topic = Topic;
+                topicTaskStudent.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid Topic");
+            }
         }
 
         private void button2_Click_1(object sender, EventArgs e)
