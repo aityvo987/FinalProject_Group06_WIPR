@@ -15,15 +15,10 @@ namespace FInalProject_Group06
 {
     public partial class fTopicRegisterCreate : Form
     {
-        DAOTopic topic = new DAOTopic();
         public fTopicRegisterCreate()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            topic.AddTopic(txtName.Text,cbType.Text,cbInstructor.Text,txtDescription.Text,txtRequirement.Text,txtStudent1.Text,txtStudent2.Text);
-        }
+        
     }
 }

@@ -29,31 +29,31 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            label2 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label3 = new Label();
+            lblStudent1 = new Label();
+            lblInstructor = new Label();
+            lblThesisLecturer = new Label();
+            lblSemester = new Label();
+            lblYear = new Label();
+            lblStudent2 = new Label();
             label8 = new Label();
             progressBar1 = new ProgressBar();
             button2 = new Button();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
+            lblStudentId1 = new Label();
+            lblThesisLecturerName = new Label();
+            lblStudentId2 = new Label();
+            lblSemesterNumber = new Label();
+            lblInstructorName = new Label();
+            lblYearNum = new Label();
+            lblTopic = new Label();
+            lblTopicName = new Label();
             button1 = new Button();
-            dataGridView1 = new DataGridView();
-            label9 = new Label();
-            label10 = new Label();
-            label19 = new Label();
-            label20 = new Label();
+            dgvTask = new DataGridView();
+            lblTask = new Label();
+            lblTaskName = new Label();
+            lblTaskNumber = new Label();
+            lblTaskNameE = new Label();
             panel1 = new Panel();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTask).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -67,65 +67,65 @@
             label1.TabIndex = 0;
             label1.Text = "Topic Management";
             // 
-            // label2
+            // lblStudent1
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(11, 13);
-            label2.Name = "label2";
-            label2.Size = new Size(77, 20);
-            label2.TabIndex = 1;
-            label2.Text = "Student 1";
+            lblStudent1.AutoSize = true;
+            lblStudent1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblStudent1.Location = new Point(11, 13);
+            lblStudent1.Name = "lblStudent1";
+            lblStudent1.Size = new Size(77, 20);
+            lblStudent1.TabIndex = 1;
+            lblStudent1.Text = "Student 1";
             // 
-            // label4
+            // lblInstructor
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(537, 13);
-            label4.Name = "label4";
-            label4.Size = new Size(79, 20);
-            label4.TabIndex = 3;
-            label4.Text = "Instructor";
+            lblInstructor.AutoSize = true;
+            lblInstructor.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblInstructor.Location = new Point(537, 13);
+            lblInstructor.Name = "lblInstructor";
+            lblInstructor.Size = new Size(79, 20);
+            lblInstructor.TabIndex = 3;
+            lblInstructor.Text = "Instructor";
             // 
-            // label5
+            // lblThesisLecturer
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(11, 75);
-            label5.Name = "label5";
-            label5.Size = new Size(115, 20);
-            label5.TabIndex = 4;
-            label5.Text = "Thesis Lecturer";
+            lblThesisLecturer.AutoSize = true;
+            lblThesisLecturer.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblThesisLecturer.Location = new Point(11, 75);
+            lblThesisLecturer.Name = "lblThesisLecturer";
+            lblThesisLecturer.Size = new Size(115, 20);
+            lblThesisLecturer.TabIndex = 4;
+            lblThesisLecturer.Text = "Thesis Lecturer";
             // 
-            // label6
+            // lblSemester
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(290, 75);
-            label6.Name = "label6";
-            label6.Size = new Size(74, 20);
-            label6.TabIndex = 5;
-            label6.Text = "Semester";
+            lblSemester.AutoSize = true;
+            lblSemester.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblSemester.Location = new Point(290, 75);
+            lblSemester.Name = "lblSemester";
+            lblSemester.Size = new Size(74, 20);
+            lblSemester.TabIndex = 5;
+            lblSemester.Text = "Semester";
             // 
-            // label7
+            // lblYear
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(537, 75);
-            label7.Name = "label7";
-            label7.Size = new Size(39, 20);
-            label7.TabIndex = 6;
-            label7.Text = "Year";
+            lblYear.AutoSize = true;
+            lblYear.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblYear.Location = new Point(537, 75);
+            lblYear.Name = "lblYear";
+            lblYear.Size = new Size(39, 20);
+            lblYear.TabIndex = 6;
+            lblYear.Text = "Year";
             // 
-            // label3
+            // lblStudent2
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(290, 13);
-            label3.Name = "label3";
-            label3.Size = new Size(77, 20);
-            label3.TabIndex = 7;
-            label3.Text = "Student 2";
+            lblStudent2.AutoSize = true;
+            lblStudent2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblStudent2.Location = new Point(290, 13);
+            lblStudent2.Name = "lblStudent2";
+            lblStudent2.Size = new Size(77, 20);
+            lblStudent2.TabIndex = 7;
+            lblStudent2.Text = "Student 2";
             // 
             // label8
             // 
@@ -154,78 +154,78 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click_1;
             // 
-            // label11
+            // lblStudentId1
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(149, 13);
-            label11.Name = "label11";
-            label11.Size = new Size(72, 20);
-            label11.TabIndex = 24;
-            label11.Text = "Student 1";
+            lblStudentId1.AutoSize = true;
+            lblStudentId1.Location = new Point(149, 13);
+            lblStudentId1.Name = "lblStudentId1";
+            lblStudentId1.Size = new Size(72, 20);
+            lblStudentId1.TabIndex = 24;
+            lblStudentId1.Text = "Student 1";
             // 
-            // label12
+            // lblThesisLecturerName
             // 
-            label12.AutoSize = true;
-            label12.Location = new Point(149, 75);
-            label12.Name = "label12";
-            label12.Size = new Size(106, 20);
-            label12.TabIndex = 25;
-            label12.Text = "Thesis Lecturer";
+            lblThesisLecturerName.AutoSize = true;
+            lblThesisLecturerName.Location = new Point(149, 75);
+            lblThesisLecturerName.Name = "lblThesisLecturerName";
+            lblThesisLecturerName.Size = new Size(106, 20);
+            lblThesisLecturerName.TabIndex = 25;
+            lblThesisLecturerName.Text = "Thesis Lecturer";
             // 
-            // label13
+            // lblStudentId2
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(395, 13);
-            label13.Name = "label13";
-            label13.Size = new Size(72, 20);
-            label13.TabIndex = 26;
-            label13.Text = "Student 2";
+            lblStudentId2.AutoSize = true;
+            lblStudentId2.Location = new Point(395, 13);
+            lblStudentId2.Name = "lblStudentId2";
+            lblStudentId2.Size = new Size(72, 20);
+            lblStudentId2.TabIndex = 26;
+            lblStudentId2.Text = "Student 2";
             // 
-            // label14
+            // lblSemesterNumber
             // 
-            label14.AutoSize = true;
-            label14.Location = new Point(395, 75);
-            label14.Name = "label14";
-            label14.Size = new Size(17, 20);
-            label14.TabIndex = 27;
-            label14.Text = "2";
+            lblSemesterNumber.AutoSize = true;
+            lblSemesterNumber.Location = new Point(395, 75);
+            lblSemesterNumber.Name = "lblSemesterNumber";
+            lblSemesterNumber.Size = new Size(17, 20);
+            lblSemesterNumber.TabIndex = 27;
+            lblSemesterNumber.Text = "2";
             // 
-            // label15
+            // lblInstructorName
             // 
-            label15.AutoSize = true;
-            label15.Location = new Point(633, 13);
-            label15.Name = "label15";
-            label15.Size = new Size(71, 20);
-            label15.TabIndex = 28;
-            label15.Text = "Instructor";
+            lblInstructorName.AutoSize = true;
+            lblInstructorName.Location = new Point(633, 13);
+            lblInstructorName.Name = "lblInstructorName";
+            lblInstructorName.Size = new Size(71, 20);
+            lblInstructorName.TabIndex = 28;
+            lblInstructorName.Text = "Instructor";
             // 
-            // label16
+            // lblYearNum
             // 
-            label16.AutoSize = true;
-            label16.Location = new Point(633, 75);
-            label16.Name = "label16";
-            label16.Size = new Size(79, 20);
-            label16.TabIndex = 29;
-            label16.Text = "2023-2024";
+            lblYearNum.AutoSize = true;
+            lblYearNum.Location = new Point(633, 75);
+            lblYearNum.Name = "lblYearNum";
+            lblYearNum.Size = new Size(79, 20);
+            lblYearNum.TabIndex = 29;
+            lblYearNum.Text = "2023-2024";
             // 
-            // label17
+            // lblTopic
             // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label17.Location = new Point(303, 73);
-            label17.Name = "label17";
-            label17.Size = new Size(59, 25);
-            label17.TabIndex = 1;
-            label17.Text = "Topic";
+            lblTopic.AutoSize = true;
+            lblTopic.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTopic.Location = new Point(303, 73);
+            lblTopic.Name = "lblTopic";
+            lblTopic.Size = new Size(59, 25);
+            lblTopic.TabIndex = 1;
+            lblTopic.Text = "Topic";
             // 
-            // label18
+            // lblTopicName
             // 
-            label18.AutoSize = true;
-            label18.Location = new Point(421, 77);
-            label18.Name = "label18";
-            label18.Size = new Size(89, 20);
-            label18.TabIndex = 30;
-            label18.Text = "Topic Name";
+            lblTopicName.AutoSize = true;
+            lblTopicName.Location = new Point(421, 77);
+            lblTopicName.Name = "lblTopicName";
+            lblTopicName.Size = new Size(89, 20);
+            lblTopicName.TabIndex = 30;
+            lblTopicName.Text = "Topic Name";
             // 
             // button1
             // 
@@ -237,72 +237,74 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // dataGridView1
+            // dgvTask
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(56, 348);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(473, 188);
-            dataGridView1.TabIndex = 32;
+            dgvTask.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTask.Location = new Point(56, 348);
+            dgvTask.Name = "dgvTask";
+            dgvTask.RowHeadersWidth = 51;
+            dgvTask.RowTemplate.Height = 29;
+            dgvTask.Size = new Size(473, 188);
+            dgvTask.TabIndex = 32;
+            dgvTask.CellClick += dgvTask_CellClick;
+            dgvTask.CellContentClick += dgvTask_CellClick;
             // 
-            // label9
+            // lblTask
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(591, 356);
-            label9.Name = "label9";
-            label9.Size = new Size(53, 20);
-            label9.TabIndex = 33;
-            label9.Text = "Task #";
+            lblTask.AutoSize = true;
+            lblTask.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTask.Location = new Point(591, 356);
+            lblTask.Name = "lblTask";
+            lblTask.Size = new Size(53, 20);
+            lblTask.TabIndex = 33;
+            lblTask.Text = "Task #";
             // 
-            // label10
+            // lblTaskName
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(591, 410);
-            label10.Name = "label10";
-            label10.Size = new Size(51, 20);
-            label10.TabIndex = 34;
-            label10.Text = "Name";
+            lblTaskName.AutoSize = true;
+            lblTaskName.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTaskName.Location = new Point(591, 410);
+            lblTaskName.Name = "lblTaskName";
+            lblTaskName.Size = new Size(51, 20);
+            lblTaskName.TabIndex = 34;
+            lblTaskName.Text = "Name";
             // 
-            // label19
+            // lblTaskNumber
             // 
-            label19.AutoSize = true;
-            label19.Location = new Point(707, 356);
-            label19.Name = "label19";
-            label19.Size = new Size(49, 20);
-            label19.TabIndex = 33;
-            label19.Text = "Task #";
+            lblTaskNumber.AutoSize = true;
+            lblTaskNumber.Location = new Point(707, 356);
+            lblTaskNumber.Name = "lblTaskNumber";
+            lblTaskNumber.Size = new Size(49, 20);
+            lblTaskNumber.TabIndex = 33;
+            lblTaskNumber.Text = "Task #";
             // 
-            // label20
+            // lblTaskNameE
             // 
-            label20.AutoSize = true;
-            label20.Location = new Point(707, 410);
-            label20.Name = "label20";
-            label20.Size = new Size(49, 20);
-            label20.TabIndex = 34;
-            label20.Text = "Name";
+            lblTaskNameE.AutoSize = true;
+            lblTaskNameE.Location = new Point(707, 410);
+            lblTaskNameE.Name = "lblTaskNameE";
+            lblTaskNameE.Size = new Size(49, 20);
+            lblTaskNameE.TabIndex = 34;
+            lblTaskNameE.Text = "Name";
             // 
             // panel1
             // 
             panel1.BackColor = SystemColors.Control;
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(progressBar1);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label3);
+            panel1.Controls.Add(lblStudent1);
+            panel1.Controls.Add(lblInstructor);
+            panel1.Controls.Add(lblThesisLecturer);
+            panel1.Controls.Add(lblSemester);
+            panel1.Controls.Add(lblYear);
+            panel1.Controls.Add(lblStudent2);
             panel1.Controls.Add(label8);
-            panel1.Controls.Add(label16);
-            panel1.Controls.Add(label11);
-            panel1.Controls.Add(label15);
-            panel1.Controls.Add(label12);
-            panel1.Controls.Add(label14);
-            panel1.Controls.Add(label13);
+            panel1.Controls.Add(lblYearNum);
+            panel1.Controls.Add(lblStudentId1);
+            panel1.Controls.Add(lblInstructorName);
+            panel1.Controls.Add(lblThesisLecturerName);
+            panel1.Controls.Add(lblSemesterNumber);
+            panel1.Controls.Add(lblStudentId2);
             panel1.ForeColor = SystemColors.ActiveCaptionText;
             panel1.Location = new Point(56, 118);
             panel1.Name = "panel1";
@@ -316,20 +318,20 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(855, 592);
             Controls.Add(panel1);
-            Controls.Add(label20);
-            Controls.Add(label19);
-            Controls.Add(label10);
-            Controls.Add(label9);
-            Controls.Add(dataGridView1);
+            Controls.Add(lblTaskNameE);
+            Controls.Add(lblTaskNumber);
+            Controls.Add(lblTaskName);
+            Controls.Add(lblTask);
+            Controls.Add(dgvTask);
             Controls.Add(button1);
-            Controls.Add(label18);
+            Controls.Add(lblTopicName);
             Controls.Add(button2);
-            Controls.Add(label17);
+            Controls.Add(lblTopic);
             Controls.Add(label1);
             Name = "fStudentTopics";
             Text = "fStudentTopics";
             Load += fStudentTopics_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTask).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -339,29 +341,29 @@
         #endregion
 
         private Label label1;
-        private Label label2;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label3;
+        private Label lblStudent1;
+        private Label lblInstructor;
+        private Label lblThesisLecturer;
+        private Label lblSemester;
+        private Label lblYear;
+        private Label lblStudent2;
         private Label label8;
         private ProgressBar progressBar1;
         private Button button2;
-        private Label label11;
-        private Label label12;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
-        private Label label17;
-        private Label label18;
+        private Label lblStudentId1;
+        private Label lblThesisLecturerName;
+        private Label lblStudentId2;
+        private Label lblSemesterNumber;
+        private Label lblInstructorName;
+        private Label lblYearNum;
+        private Label lblTopic;
+        private Label lblTopicName;
         private Button button1;
-        private DataGridView dataGridView1;
-        private Label label9;
-        private Label label10;
-        private Label label19;
-        private Label label20;
+        private DataGridView dgvTask;
+        private Label lblTask;
+        private Label lblTaskName;
+        private Label lblTaskNumber;
+        private Label lblTaskNameE;
         private Panel panel1;
     }
 }

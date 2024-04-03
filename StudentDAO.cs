@@ -36,7 +36,7 @@ namespace FInalProject_Group06
         public Student FindStudent(Account account)
         {
             Student student = new Student();
-            string sqlStr = string.Format("SELECT * FROM Lecturer WHERE Id = '{0}'", account.memberId);
+            string sqlStr = string.Format("SELECT * FROM Student WHERE Id = '{0}'", account.memberId);
             conn.Open();
             SqlCommand command = new SqlCommand(sqlStr, conn);
             SqlDataReader reader = command.ExecuteReader();
