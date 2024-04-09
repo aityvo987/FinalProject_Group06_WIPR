@@ -1,4 +1,4 @@
-﻿namespace FInalProject_Group06
+namespace FInalProject_Group06
 {
     partial class fStudentTopics
     {
@@ -61,10 +61,11 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(231, 9);
+            label1.Location = new Point(202, 7);
             label1.Name = "label1";
-            label1.Size = new Size(411, 53);
+            label1.Size = new Size(331, 43);
             label1.TabIndex = 0;
             label1.Text = "Topic Management";
             // 
@@ -132,24 +133,25 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(11, 135);
+            label8.Location = new Point(10, 101);
             label8.Name = "label8";
-            label8.Size = new Size(70, 20);
+            label8.Size = new Size(55, 15);
             label8.TabIndex = 14;
             label8.Text = "Progress";
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(150, 126);
+            progressBar1.Location = new Point(131, 94);
+            progressBar1.Margin = new Padding(3, 2, 3, 2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(317, 29);
+            progressBar1.Size = new Size(277, 22);
             progressBar1.TabIndex = 15;
             // 
             // button2
             // 
             button2.Location = new Point(591, 548);
             button2.Name = "button2";
-            button2.Size = new Size(217, 27);
+            button2.Size = new Size(190, 20);
             button2.TabIndex = 20;
             button2.Text = "Return Home Page";
             button2.UseVisualStyleBackColor = true;
@@ -307,9 +309,10 @@
             panel1.Controls.Add(lblSemesterNumber);
             panel1.Controls.Add(lblStudentId2);
             panel1.ForeColor = SystemColors.ActiveCaptionText;
-            panel1.Location = new Point(56, 118);
+            panel1.Location = new Point(49, 88);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(765, 185);
+            panel1.Size = new Size(670, 139);
             panel1.TabIndex = 35;
             panel1.Paint += panel1_Paint;
             // 
@@ -325,7 +328,7 @@
             // 
             // fStudentTopics
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(855, 648);
             Controls.Add(panel1);
@@ -340,6 +343,7 @@
             Controls.Add(button2);
             Controls.Add(lblTopic);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "fStudentTopics";
             Text = "fStudentTopics";
             Load += fStudentTopics_Load;
