@@ -53,6 +53,7 @@
             lblTaskNumber = new Label();
             lblTaskNameE = new Label();
             panel1 = new Panel();
+            btnCreateTask = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvTask).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -146,7 +147,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(582, 509);
+            button2.Location = new Point(591, 548);
             button2.Name = "button2";
             button2.Size = new Size(217, 27);
             button2.TabIndex = 20;
@@ -229,7 +230,7 @@
             // 
             // btnCheckTask
             // 
-            btnCheckTask.Location = new Point(582, 466);
+            btnCheckTask.Location = new Point(591, 505);
             btnCheckTask.Name = "btnCheckTask";
             btnCheckTask.Size = new Size(217, 27);
             btnCheckTask.TabIndex = 31;
@@ -244,7 +245,7 @@
             dgvTask.Name = "dgvTask";
             dgvTask.RowHeadersWidth = 51;
             dgvTask.RowTemplate.Height = 29;
-            dgvTask.Size = new Size(473, 188);
+            dgvTask.Size = new Size(473, 236);
             dgvTask.TabIndex = 32;
             dgvTask.CellClick += dgvTask_CellClick;
             dgvTask.CellContentClick += dgvTask_CellClick;
@@ -312,17 +313,28 @@
             panel1.TabIndex = 35;
             panel1.Paint += panel1_Paint;
             // 
+            // btnCreateTask
+            // 
+            btnCreateTask.Location = new Point(591, 462);
+            btnCreateTask.Name = "btnCreateTask";
+            btnCreateTask.Size = new Size(217, 27);
+            btnCreateTask.TabIndex = 31;
+            btnCreateTask.Text = "Create Task";
+            btnCreateTask.UseVisualStyleBackColor = true;
+            btnCreateTask.Click += button1_Click;
+            // 
             // fStudentTopics
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(855, 592);
+            ClientSize = new Size(855, 648);
             Controls.Add(panel1);
             Controls.Add(lblTaskNameE);
             Controls.Add(lblTaskNumber);
             Controls.Add(lblTaskName);
             Controls.Add(lblTask);
             Controls.Add(dgvTask);
+            Controls.Add(btnCreateTask);
             Controls.Add(btnCheckTask);
             Controls.Add(lblTopicName);
             Controls.Add(button2);
@@ -365,5 +377,6 @@
         private Label lblTaskNumber;
         private Label lblTaskNameE;
         private Panel panel1;
+        private Button btnCreateTask;
     }
 }
