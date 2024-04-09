@@ -2,6 +2,8 @@ namespace FInalProject_Group06
 {
     public partial class Form1 : Form
     {
+        TopicDAO topicDAO = new TopicDAO();
+        Topic topic = new Topic();
         public Account Account { get; set; }
         public Lecturer Lecturer { get; set; }
         public Student  Student { get; set; }
@@ -9,7 +11,28 @@ namespace FInalProject_Group06
         {
             InitializeComponent();
         }
+        private bool findStudentTopic()
+        {
+            if (Account.role == "1")
+            {
+                if (topicDAO.FindTopicOnStudent(topic, Student.citizenId))
+                {
+                    btnManage.Enabled = true;
+                    btnRegister.Enabled = false;
+                    return true;
+                }
+                else
+                {
+                    btnManage.Enabled = false;
+                    btnRegister.Enabled = true;
+                    return false;
+                }
 
+            }
+            return true;
+
+
+        }
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
@@ -17,9 +40,17 @@ namespace FInalProject_Group06
 
         private void btnManage_Click(object sender, EventArgs e)
         {
+            bool re = findStudentTopic();
+            if (!re)
+            {
+                MessageBox.Show("You have not registered a topic");
+                return;
+            }
             if (Account.role == "1")
             {
                 fStudentTopics f2 = new fStudentTopics();
+                f2.Student = Student;
+                f2.Topic = topic;
                 f2.Show();
             }
             else { 
@@ -31,8 +62,15 @@ namespace FInalProject_Group06
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            bool re = findStudentTopic();
+            
             if (Account.role == "1")
             {
+                if (re)
+                {
+                    MessageBox.Show("You have already registered a topic");
+                    return;
+                }
                 fTopicRegisterStudent f3 = new fTopicRegisterStudent();
                 f3.Account = Account;
                 f3.Student = Student;
