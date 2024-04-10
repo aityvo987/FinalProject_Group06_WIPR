@@ -33,6 +33,10 @@
             lblStudent1 = new Label();
             lblStudent2 = new Label();
             lblYear = new Label();
+            lblTopicStu1 = new Label();
+            lblTopicYear = new Label();
+            lblTopicTech = new Label();
+            lblTopicStu2 = new Label();
             SuspendLayout();
             // 
             // lblTopicName
@@ -52,9 +56,9 @@
             lblTopicDescription.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
             lblTopicDescription.Location = new Point(20, 58);
             lblTopicDescription.Name = "lblTopicDescription";
-            lblTopicDescription.Size = new Size(119, 25);
+            lblTopicDescription.Size = new Size(114, 25);
             lblTopicDescription.TabIndex = 1;
-            lblTopicDescription.Text = "Technologiy";
+            lblTopicDescription.Text = "Technology";
             // 
             // lblStudent1
             // 
@@ -86,12 +90,52 @@
             lblYear.TabIndex = 4;
             lblYear.Text = "Student2";
             // 
+            // lblTopicStu1
+            // 
+            lblTopicStu1.AutoSize = true;
+            lblTopicStu1.Location = new Point(143, 164);
+            lblTopicStu1.Name = "lblTopicStu1";
+            lblTopicStu1.Size = new Size(68, 20);
+            lblTopicStu1.TabIndex = 5;
+            lblTopicStu1.Text = "Student1";
+            // 
+            // lblTopicYear
+            // 
+            lblTopicYear.AutoSize = true;
+            lblTopicYear.Location = new Point(143, 110);
+            lblTopicYear.Name = "lblTopicYear";
+            lblTopicYear.Size = new Size(37, 20);
+            lblTopicYear.TabIndex = 6;
+            lblTopicYear.Text = "Year";
+            // 
+            // lblTopicTech
+            // 
+            lblTopicTech.AutoSize = true;
+            lblTopicTech.Location = new Point(143, 62);
+            lblTopicTech.Name = "lblTopicTech";
+            lblTopicTech.Size = new Size(85, 20);
+            lblTopicTech.TabIndex = 7;
+            lblTopicTech.Text = "Technology";
+            // 
+            // lblTopicStu2
+            // 
+            lblTopicStu2.AutoSize = true;
+            lblTopicStu2.Location = new Point(473, 165);
+            lblTopicStu2.Name = "lblTopicStu2";
+            lblTopicStu2.Size = new Size(68, 20);
+            lblTopicStu2.TabIndex = 8;
+            lblTopicStu2.Text = "Student2";
+            // 
             // ucTopic
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             BorderStyle = BorderStyle.Fixed3D;
+            Controls.Add(lblTopicStu2);
+            Controls.Add(lblTopicTech);
+            Controls.Add(lblTopicYear);
+            Controls.Add(lblTopicStu1);
             Controls.Add(lblYear);
             Controls.Add(lblStudent2);
             Controls.Add(lblStudent1);
@@ -110,5 +154,9 @@
         private Label lblStudent1;
         private Label lblStudent2;
         private Label lblYear;
+        private Label lblTopicStu1;
+        private Label lblTopicYear;
+        private Label lblTopicTech;
+        private Label lblTopicStu2;
     }
 }

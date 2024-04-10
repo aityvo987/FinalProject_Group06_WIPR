@@ -23,19 +23,24 @@ namespace FInalProject_Group06
         }
         public string student1
         {
-            set { lblStudent1.Text = value; }
-            get { return lblStudent1.Text; }
+            set { lblTopicStu1.Text = value; }
+            get { return lblTopicStu1.Text; }
         }
         public string student2
         {
-            set { lblStudent2.Text = value; }
-            get { return lblStudent2.Text; }
+            set { lblTopicStu2.Text = value; }
+            get { return lblTopicStu2.Text; }
         }
 
         public string year
         {
-            set { lblYear.Text = value; }
-            get { return lblYear.Text; }
+            set { lblTopicYear.Text = value; }
+            get { return lblTopicYear.Text; }
+        }
+        public string tech
+        {
+            set { lblTopicTech.Text = value; }
+            get { return lblTopicTech.Text; }
         }
     }
 }
