@@ -10,7 +10,6 @@ E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows
 E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.fTopicRegister.resources
 E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.fTopicRegisterCreate.resources
 E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.fTopicRegisterStudent.resources
-E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.fTopicRegisterStudent1.resources
 E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.Properties.Resources.resources
 E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.TopicTask.resources
 E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.TopicTaskStudent.resources
@@ -61,3 +60,5 @@ E:\I.T\School_Project\WindowProgramming\QLSV_CuoiKy\obj\Debug\net6.0-windows\FIn
 E:\I.T\School_Project\WindowProgramming\QLSV_CuoiKy\obj\Debug\net6.0-windows\FInalProject_Group06.dll
 E:\I.T\School_Project\WindowProgramming\QLSV_CuoiKy\obj\Debug\net6.0-windows\refint\FInalProject_Group06.dll
 E:\I.T\School_Project\WindowProgramming\QLSV_CuoiKy\obj\Debug\net6.0-windows\FInalProject_Group06.pdb
+E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.fCreateTask.resources
+E:\Studying\WindowProgramming\Code\FinalProject_Group06\obj\Debug\net6.0-windows\FInalProject_Group06.fTopicRegisterGet.resources
