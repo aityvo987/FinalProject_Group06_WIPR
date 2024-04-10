@@ -1,4 +1,4 @@
-﻿namespace FInalProject_Group06
+namespace FInalProject_Group06
 {
     partial class fStudentTopics
     {
@@ -60,10 +60,11 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(231, 9);
+            label1.Location = new Point(202, 7);
             label1.Name = "label1";
-            label1.Size = new Size(411, 53);
+            label1.Size = new Size(331, 43);
             label1.TabIndex = 0;
             label1.Text = "Topic Management";
             // 
@@ -71,9 +72,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(11, 13);
+            label2.Location = new Point(10, 10);
             label2.Name = "label2";
-            label2.Size = new Size(77, 20);
+            label2.Size = new Size(62, 15);
             label2.TabIndex = 1;
             label2.Text = "Student 1";
             // 
@@ -81,9 +82,9 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(537, 13);
+            label4.Location = new Point(470, 10);
             label4.Name = "label4";
-            label4.Size = new Size(79, 20);
+            label4.Size = new Size(63, 15);
             label4.TabIndex = 3;
             label4.Text = "Instructor";
             // 
@@ -91,9 +92,9 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(11, 75);
+            label5.Location = new Point(10, 56);
             label5.Name = "label5";
-            label5.Size = new Size(115, 20);
+            label5.Size = new Size(92, 15);
             label5.TabIndex = 4;
             label5.Text = "Thesis Lecturer";
             // 
@@ -101,9 +102,9 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(290, 75);
+            label6.Location = new Point(254, 56);
             label6.Name = "label6";
-            label6.Size = new Size(74, 20);
+            label6.Size = new Size(61, 15);
             label6.TabIndex = 5;
             label6.Text = "Semester";
             // 
@@ -111,9 +112,9 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(537, 75);
+            label7.Location = new Point(470, 56);
             label7.Name = "label7";
-            label7.Size = new Size(39, 20);
+            label7.Size = new Size(31, 15);
             label7.TabIndex = 6;
             label7.Text = "Year";
             // 
@@ -121,9 +122,9 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(290, 13);
+            label3.Location = new Point(254, 10);
             label3.Name = "label3";
-            label3.Size = new Size(77, 20);
+            label3.Size = new Size(62, 15);
             label3.TabIndex = 7;
             label3.Text = "Student 2";
             // 
@@ -131,24 +132,26 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(11, 135);
+            label8.Location = new Point(10, 101);
             label8.Name = "label8";
-            label8.Size = new Size(70, 20);
+            label8.Size = new Size(55, 15);
             label8.TabIndex = 14;
             label8.Text = "Progress";
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(150, 126);
+            progressBar1.Location = new Point(131, 94);
+            progressBar1.Margin = new Padding(3, 2, 3, 2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(317, 29);
+            progressBar1.Size = new Size(277, 22);
             progressBar1.TabIndex = 15;
             // 
             // button2
             // 
-            button2.Location = new Point(582, 509);
+            button2.Location = new Point(509, 382);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(217, 27);
+            button2.Size = new Size(190, 20);
             button2.TabIndex = 20;
             button2.Text = "Return Home Page";
             button2.UseVisualStyleBackColor = true;
@@ -157,81 +160,84 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(149, 13);
+            label11.Location = new Point(130, 10);
             label11.Name = "label11";
-            label11.Size = new Size(72, 20);
+            label11.Size = new Size(57, 15);
             label11.TabIndex = 24;
             label11.Text = "Student 1";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(149, 75);
+            label12.Location = new Point(130, 56);
             label12.Name = "label12";
-            label12.Size = new Size(106, 20);
+            label12.Size = new Size(85, 15);
             label12.TabIndex = 25;
             label12.Text = "Thesis Lecturer";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(395, 13);
+            label13.Location = new Point(346, 10);
             label13.Name = "label13";
-            label13.Size = new Size(72, 20);
+            label13.Size = new Size(57, 15);
             label13.TabIndex = 26;
             label13.Text = "Student 2";
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(395, 75);
+            label14.Location = new Point(346, 56);
             label14.Name = "label14";
-            label14.Size = new Size(17, 20);
+            label14.Size = new Size(13, 15);
             label14.TabIndex = 27;
             label14.Text = "2";
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(633, 13);
+            label15.Location = new Point(554, 10);
             label15.Name = "label15";
-            label15.Size = new Size(71, 20);
+            label15.Size = new Size(58, 15);
             label15.TabIndex = 28;
             label15.Text = "Instructor";
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(633, 75);
+            label16.Location = new Point(554, 56);
             label16.Name = "label16";
-            label16.Size = new Size(79, 20);
+            label16.Size = new Size(60, 15);
             label16.TabIndex = 29;
             label16.Text = "2023-2024";
             // 
             // label17
             // 
             label17.AutoSize = true;
+            label17.BackColor = Color.Transparent;
             label17.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
-            label17.Location = new Point(303, 73);
+            label17.Location = new Point(265, 55);
             label17.Name = "label17";
-            label17.Size = new Size(59, 25);
+            label17.Size = new Size(46, 20);
             label17.TabIndex = 1;
             label17.Text = "Topic";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(421, 77);
+            label18.BackColor = Color.Transparent;
+            label18.Location = new Point(368, 58);
             label18.Name = "label18";
-            label18.Size = new Size(89, 20);
+            label18.Size = new Size(70, 15);
             label18.TabIndex = 30;
             label18.Text = "Topic Name";
             // 
             // button1
             // 
-            button1.Location = new Point(582, 466);
+            button1.Location = new Point(509, 350);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(217, 27);
+            button1.Size = new Size(190, 20);
             button1.TabIndex = 31;
             button1.Text = "Check Task";
             button1.UseVisualStyleBackColor = true;
@@ -240,48 +246,53 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(56, 348);
+            dataGridView1.Location = new Point(49, 261);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(473, 188);
+            dataGridView1.Size = new Size(414, 141);
             dataGridView1.TabIndex = 32;
             // 
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(591, 356);
+            label9.Location = new Point(517, 267);
             label9.Name = "label9";
-            label9.Size = new Size(53, 20);
+            label9.Size = new Size(41, 15);
             label9.TabIndex = 33;
             label9.Text = "Task #";
             // 
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.Location = new Point(591, 410);
+            label10.Location = new Point(517, 308);
             label10.Name = "label10";
-            label10.Size = new Size(51, 20);
+            label10.Size = new Size(40, 15);
             label10.TabIndex = 34;
             label10.Text = "Name";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(707, 356);
+            label19.BackColor = Color.Transparent;
+            label19.Location = new Point(619, 267);
             label19.Name = "label19";
-            label19.Size = new Size(49, 20);
+            label19.Size = new Size(39, 15);
             label19.TabIndex = 33;
             label19.Text = "Task #";
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(707, 410);
+            label20.BackColor = Color.Transparent;
+            label20.Location = new Point(619, 308);
             label20.Name = "label20";
-            label20.Size = new Size(49, 20);
+            label20.Size = new Size(39, 15);
             label20.TabIndex = 34;
             label20.Text = "Name";
             // 
@@ -304,17 +315,20 @@
             panel1.Controls.Add(label14);
             panel1.Controls.Add(label13);
             panel1.ForeColor = SystemColors.ActiveCaptionText;
-            panel1.Location = new Point(56, 118);
+            panel1.Location = new Point(49, 88);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(765, 185);
+            panel1.Size = new Size(670, 139);
             panel1.TabIndex = 35;
             panel1.Paint += panel1_Paint;
             // 
             // fStudentTopics
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(855, 592);
+            BackgroundImage = Properties.Resources.whiteback;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(748, 444);
             Controls.Add(panel1);
             Controls.Add(label20);
             Controls.Add(label19);
@@ -326,6 +340,7 @@
             Controls.Add(button2);
             Controls.Add(label17);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "fStudentTopics";
             Text = "fStudentTopics";
             Load += fStudentTopics_Load;
