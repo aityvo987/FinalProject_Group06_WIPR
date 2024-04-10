@@ -31,7 +31,6 @@ namespace FInalProject_Group06
             txtStudent2 = new TextBox();
             txtStudent1 = new TextBox();
             button2 = new Button();
-            button1 = new Button();
             label11 = new Label();
             label9 = new Label();
             label1 = new Label();
@@ -74,20 +73,7 @@ namespace FInalProject_Group06
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = false;
             // 
-            // btnCreate
-            // 
-            button1.BackColor = Color.LawnGreen;
-            button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.ImageAlign = ContentAlignment.TopCenter;
-            button1.Location = new Point(142, 394);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(109, 25);
-            button1.TabIndex = 32;
-            button1.Text = "Create";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
+            
             // label11
             // 
             label11.AutoSize = true;
@@ -239,7 +225,6 @@ namespace FInalProject_Group06
             Controls.Add(txtName);
             Controls.Add(txtStudent1);
             Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(label11);
             Controls.Add(label9);
             Controls.Add(label2);
